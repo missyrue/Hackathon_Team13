@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data — raw data stays outside the repo
+data/raw/
+*.csv.gz
+
+# Model artifacts (large binary files — tracked via Git LFS or committed selectively)
+# artifacts/*.joblib   # Uncomment if using LFS
+
+# Evaluator ground-truth — NEVER commit these
+evaluator_test_routes/
+**/evaluator_test/**/*.route
+
+# Misc
+*.log
+.env
