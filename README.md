@@ -26,8 +26,10 @@ Hackathon_Team13/
 ├── tests/              # Unit & integration tests
 ├── notebooks/          # EDA and experiment notebooks
 ├── artifacts/          # Serialised model weights & scalers
-├── docs/figures/       # Report figures, Folium HTML exports
-├── report/sections/    # Technical report source files
+├── docs/
+│   ├── eda/trajectory_audit/ # Training-track inventory and anomaly summary
+│   └── figures/             # Report figures, Folium HTML exports
+├── report/sections/         # Technical report source files
 ├── requirements.txt
 └── README.md
 ```
