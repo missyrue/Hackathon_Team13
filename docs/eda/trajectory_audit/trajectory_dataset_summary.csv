@@ -1,0 +1,2 @@
+trip_count,total_observation_count,time_interval_count,median_observations_per_trip,median_duration_s,median_regular_interval_fraction,overall_regular_interval_fraction,irregular_interval_count,long_gap_count,gps_jump_count,stationary_cluster_count
+80,208417,208337,1529.0,1710.0014999999999,0.9914387810304783,0.9650902144122263,7273,7273,1524,6
