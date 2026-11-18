@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.pem
+id_rsa*
+.ipynb_checkpoints/
+# datasets and evaluator labels must never be committed
+/data/
+Student folder/
+*.route
+# large duplicate model (best_tuned_model.joblib is the one the API loads)
+artifacts/random_forest_model.joblib
